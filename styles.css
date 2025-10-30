@@ -118,4 +118,11 @@ footer {
     margin-bottom: 10px;
 }
 
+.project-image {
+    width: 100%;      /* Make image fill the card width */
+    height: auto;     /* Keep aspect ratio */
+    max-height: 300px; /* Optional: limit the height for consistency */
+    object-fit: cover; /* Crop/fit nicely if aspect ratios differ */
+    border-radius: 8px; /* Optional: rounded corners */
+}
 
