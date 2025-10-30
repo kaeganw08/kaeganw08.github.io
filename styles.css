@@ -87,3 +87,19 @@ footer {
     background: #222;
     color: #fff;
 }
+
+.itchio-button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #f85959; /* Itch.io style red */
+    color: #fff;
+    border-radius: 4px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.itchio-button:hover {
+    background-color: #ff6b6b;
+}
+
